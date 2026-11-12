@@ -3056,6 +3056,7 @@ GameObject:
   - component: {fileID: 1836690273}
   - component: {fileID: 1836690272}
   - component: {fileID: 1836690271}
+  - component: {fileID: 1836690275}
   m_Layer: 5
   m_Name: My Dear Tommy
   m_TagString: Untagged
@@ -3107,16 +3108,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1836690275}
+        m_TargetAssemblyTypeName: ButtonHelper, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: In the virtual End
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1836690272
@@ -3177,6 +3178,20 @@ RectTransform:
   m_AnchoredPosition: {x: -87, y: 154}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1836690275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836690270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f8318a78af94cc6b4c7ff52d60ea6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHelper
+  myText: {fileID: 0}
+  myPlayer: {fileID: 0}
 --- !u!1 &1879179032
 GameObject:
   m_ObjectHideFlags: 0
